@@ -8,5 +8,11 @@ pipeline {
       }
     }
 
+    stage('Compile') {
+      steps {
+        sh 'bash Compile.sh'
+      }
+    }
+
   }
 }
