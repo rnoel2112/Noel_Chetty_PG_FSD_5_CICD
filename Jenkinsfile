@@ -11,6 +11,7 @@ pipeline {
     stage('Compile') {
       steps {
         sh 'bash Compile.sh'
+        echo 'Compile Successful!!'
       }
     }
 
