@@ -15,5 +15,11 @@ pipeline {
       }
     }
 
+    stage('') {
+      steps {
+        echo 'Compile Success!!'
+      }
+    }
+
   }
 }
